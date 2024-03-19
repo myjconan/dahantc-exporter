@@ -1,0 +1,49 @@
+#大汉三通应用监控
+groups:
+  - name: 大汉三通应用日志监控
+    rules:
+      - alert: WARN日志量告警
+        expr: dahantc_log_info{level="WARN"} > 20
+        for: 1m
+        labels:
+          severity: 严重告警
+        annotations:
+          summary: "{{ $labels.level }}级别日志告警!"
+          description: "{{ $labels.level }}级别日志告警：{{ $labels.namespace }}中{{ $labels.podName }}的{{ $labels.className }}在10分钟内超过20次，当前次数为{{ $value }}！"
+
+      - alert: ERROR日志量告警
+        expr: dahantc_log_info{level="ERROR"} > 1
+        for: 1m
+        labels:
+          severity: 严重告警
+        annotations:
+          summary: "{{ $labels.level }}级别日志告警!"
+          description: "{{ $labels.level }}级别日志告警：{{ $labels.namespace }}中{{ $labels.podName }}的{{ $labels.className }}在10分钟内超过20次，当前次数为{{ $value }}！"
+  - name: 大汉三通应用消息发送监控
+    rules:
+      - alert: 消息发送量告警
+        expr: dahantc_app_info{index="send_quantity"} > 5000
+        for: 1m
+        labels:
+          severity: 严重告警
+        annotations:
+          summary: "消息发送量告警!"
+          description: "消息发送量告警：{{ $labels.database }}的{{ $labels.table }}在5分钟内发送量超过5000条，当前为{{ $value }}！"
+
+      - alert: 消息发送成功率告警
+        expr: dahantc_app_info{index="send_success_rate"} < 90
+        for: 1m
+        labels:
+          severity: 严重告警
+        annotations:
+          summary: "消息发送量告警!"
+          description: "消息发送成功率告警：{{ $labels.database }}的{{ $labels.table }}在5分钟内消息发送成功率低于90%，当前为{{ $value }}%！"
+
+      - alert: 通道请求成功率告警
+        expr: dahantc_app_info{index="respond_success_rate"} < 90
+        for: 1m
+        labels:
+          severity: 严重告警
+        annotations:
+          summary: "通道请求成功率告警!"
+          description: "通道请求成功率告警：{{ $labels.database }}的{{ $labels.table }}在5分钟内通道请求成功率低于90%，当前为{{ $value }}%！"
