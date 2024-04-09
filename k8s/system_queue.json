@@ -1,0 +1,546 @@
+{
+    "code": 200,
+    "result": "请求成功",
+    "data": {
+        "code": 0,
+        "msg": null,
+        "count": 76,
+        "data": [
+            {
+                "queueName": "黑名单拦截更新",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "运营商新增客户信息",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "待保存SmsForward队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信通道回写队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信状态报告表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信通道上行回写队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信失败详单表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信下行表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信待发表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信定时表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信上行表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信通道状态报告回写队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信转发状态报告队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息通道回写队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息通道状态报告回写队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息其他渠道回落状态报告队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息通道上行回写队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息上行表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息待发表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息下行表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息下行表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息失败详单表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息下行表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "CH5回落待发数据队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "RCS上行关键词待匹配队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "RCS上行状态报告转发队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息转发状态报告队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "企业微信待发表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "企业微信下行表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "企业微信失败详单表写入队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "邮件转发状态报告队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信接口数据队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息接口数据队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "RCS素材接口数据队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "企业微信接口数据队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "融合消息发送任务内存队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "邮件接口数据队列",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信下行内存30s待匹配数据",
+                "queueSize": 0,
+                "port": "8181",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "黑名单拦截更新",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "运营商新增客户信息",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "待保存SmsForward队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信通道回写队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信状态报告表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信通道上行回写队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信失败详单表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信下行表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信待发表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信定时表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信上行表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信通道状态报告回写队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信转发状态报告队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息通道回写队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息通道状态报告回写队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息其他渠道回落状态报告队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息通道上行回写队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息上行表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息待发表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息下行表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息下行表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息失败详单表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息下行表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "CH5回落待发数据队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "RCS上行关键词待匹配队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "RCS上行状态报告转发队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息转发状态报告队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "企业微信待发表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "企业微信下行表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "企业微信失败详单表写入队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "邮件转发状态报告队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信接口数据队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "5G消息接口数据队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "RCS素材接口数据队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "企业微信接口数据队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "融合消息发送任务内存队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "邮件接口数据队列",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            },
+            {
+                "queueName": "短信下行内存30s待匹配数据",
+                "queueSize": 0,
+                "port": "8182",
+                "ip": "172.18.9.69",
+                "serverName": "ctc-5gucp-app"
+            }
+        ],
+        "currentPage": 0,
+        "totalPages": 0,
+        "totalRecords": 0
+    }
+}
