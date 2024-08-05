@@ -24,6 +24,7 @@ pip install tornado
 pip install dmPython
 pip install pymysql
 pip install flask
+pip install gevent
 # #ssh
 # apt-get install -y openssh-server
 # echo -e "PermitRootLogin yes\nPasswordAuthentication yes" >>/etc/ssh/sshd_config
