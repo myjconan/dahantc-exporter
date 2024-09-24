@@ -434,7 +434,7 @@ def init():
     if sys.platform == 'linux':
         k8s = K8s_Ins(config_file='/root/.kube/k8s_config.txt')
     elif sys.platform == 'win32':
-        k8s = K8s_Ins(config_file='D:\git_repository\python\DailyWork\大汉三通\dahantc-exporter\k8s_config.txt')
+        k8s = K8s_Ins(config_file='D:\git_repository\myself\dahantc-exporter\k8s\k8s_config.txt')
     # k8s = K8s_Ins()
     logger.info('dahantc_exporter的监控namespace为：%s' % k8s.chosen_namespace)
 
@@ -456,6 +456,6 @@ if __name__ == '__main__':
     for t in threads:
         t.start()
 
-    server = pywsgi.WSGIServer(('0.0.0.0', 80), app)
+    server = pywsgi.WSGIServer(('0.0.0.0', 8445), app)
     server.serve_forever()
     logger.info('dahantc-exporter已启动')
